@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;"><b>Passport Application Form</b></h1>
+    <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: large;"><b>User Registeration</b></p>
+    <p>Important Information: Passport application can be processed at any PSK/POPSK/PSLK WITHIN INDIA irrespective of
+        your residential address.</p>
+    <hr>
+    <form>
+        <label for="reg">Register to Apply at :</label><br>
+        <label for="cpv" style="padding-right: 6.25%;">CPV Delhi</label>
+        <input type="radio" id="cpv" name="Choice" required><br>
+        <label for="passoff">Passport Office</label>
+        <input type="radio" id="passoff" name="Choice" required><br><br>
+        <label for="city">Passport Office</label><br>
+        <select name="city" id="city">
+            <option value="def">--SELECT--</option>
+            <option value="1">Ahmedabad</option>
+            <option value="2">Amritsar</option>
+            <option value="4">Bareilly</option>
+            <option value="5">Bengaluru</option>
+            <option value="7">Bhopal</option>
+            <option value="3">Bhubaneswar</option>
+            <option value="10">Chandigarh</option>
+            <option value="26">Chennai</option>
+            <option value="11">Cochin</option>
+            <option value="9">Coimbatore</option>
+            <option value="14">Dehradun</option>
+            <option value="15">Delhi</option>
+            <option value="18">Ghaziabad</option>
+            <option value="16">Goa</option>
+            <option value="17">Guwahati</option>
+            <option value="19">Hyderabad</option>
+            <option value="23">Jaipur</option>
+            <option value="21">Jalandhar</option>
+            <option value="22">Jammu</option>
+            <option value="8">Kolkata</option>
+            <option value="24">Kozhikode</option>
+            <option value="25">Lucknow</option>
+            <option value="27">Madurai</option>
+            <option value="6">Mumbai</option>
+            <option value="29">Nagpur</option>
+            <option value="30">Patna</option>
+            <option value="31">Pune</option>
+            <option value="33">Raipur</option>
+            <option value="32">Ranchi</option>
+            <option value="35">Shimla</option>
+            <option value="34">Srinagar</option>
+            <option value="36">Surat</option>
+            <option value="38">Tiruchirappalli</option>
+            <option value="39">Trivandrum</option>
+            <option value="321">Vijayawada</option>
+            <option value="40">Visakhapatnam</option>
+        </select><br><br>
+        <label for="fname">Given Name (Max 45 Characters)</label><br>
+        <input type="text" id="fname" name="fname" maxlength="45" required><br><br>
+        <label for="lname">Surname (Max 45 Characters)</label><br>
+        <input type="text" id="lname" name="lname" maxlength="45" required><br><br>
+        <label for="dob">Date of Birth (DD/MM/YYYY)</label><br>
+        <input type="date" id="dob" name="'dob" required><br><br>
+        <label for="email">E-mail Id (Max 35 Characters)</label><br>
+        <input type="email" id="email" name="email" maxlength="35" required><br><br>
+        <label>Do you want your Login Id to be same as E-mail Id?</label><br>
+        <input type="radio" id="Yes" name="Choice" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="No" name="Choice" value="No">
+        <label for="No">No</label><br><br>
+        <label for="login">Login ID</label><br>
+        <input type="text" id="login" name="LoginID" required><br><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="Password" required><br><br>
+        <label for="cnfpwd">Confirm Password</label><br>
+        <input type="password" id="cnfpwd" name="ConfirmPassword" required><br><br>
+        <label for="hint">Hint Question</label><br>
+        <select name="--SELECT--" id="hint">
+            <option value="def">--SELECT--</option>
+            <option value="city">Birth City</option>
+            <option value="col">Favourite Color</option>
+            <option value="cric">Favourite Cricketer</option>
+            <option value="food">Favourite Food</option>
+            <option value="school">First School</option>
+            <option value="car">Make of First Car Owned</option>
+            <option value="mname">Mother's Maiden Name</option>
+        </select><br><br>
+        <label for="captcha">Enter Characters Displayed : </label><br>
+        <input type="text" id="captcha" name="Captcha" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

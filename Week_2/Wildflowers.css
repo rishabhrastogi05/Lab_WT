@@ -1,0 +1,30 @@
+.wrapper{
+    margin:0;
+    border:0;
+    padding:30px;
+    position: absolute;
+    width: 250px;
+    background-color: beige;
+    text-align: center;
+}
+.f{
+    font-size: 400px;
+    color:black;
+    position: relative;
+    font-style: italic;
+    font-family:'Lucida Sans';
+}
+.wild{
+    font-size: 1.4cm;
+    position: absolute;
+    color:red;
+    top:4.2cm;
+    left:5.6cm;
+}
+.lowers{
+    font-size: 1.4cm;
+    position:absolute;
+    color:aqua;
+    top: 11cm;
+    left: 4cm;
+}
